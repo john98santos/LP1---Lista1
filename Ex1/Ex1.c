@@ -5,11 +5,9 @@ int main(){
 	
 	int tab_int [100];
 	char tab_char[100];
-	int Vezes = 0; 
 	
 	int QtdeLeituras = 0;
-	int x = 0;
-	int y = 0;
+	int x;
 
 	scanf("%i", &QtdeLeituras);
 
@@ -26,8 +24,7 @@ int main(){
 }
 
 void Funcao (int tab_int[100], char tab_char[100], int QtdeLeituras){
-	int x = 0;
-	int y = 0;
+	int x, y;
 	
 	for(x=0; x < QtdeLeituras ; x++){
 		for(y=0; y < tab_int[x]; y++)

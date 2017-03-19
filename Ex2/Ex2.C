@@ -6,14 +6,15 @@ void funcao(char v[16]);
 int main(){
 
 	char  v[16];
-	int Meio;
-	int Tamanho;
-	int inicial;
 	
 	printf("Informe alguns caracteres:");
-	scanf("%s", &v)	;
-
-	funcao(v);	
+	scanf("%s", &v);
+	
+	//if (v != "00")
+		funcao(v);
+	
+	//printf("Fechou");
+	
 }
 void funcao(char v[16]){
 	int w, x, y, z;

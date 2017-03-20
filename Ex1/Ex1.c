@@ -1,4 +1,13 @@
+/*
+RA: 0030481623024
+ALUNO: JOHN VICTOR SOUSA SANTOS
+TURMA: ADS 2016 - 2º Semestre
+
+Linguagem de Progamação 1 - LP 1
+*/
+
 #include <stdio.h>
+
 void Funcao (int tab_int[100], char tab_char[100], int QtdeLeituras);
 
 int main(){

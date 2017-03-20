@@ -1,22 +1,30 @@
+/*
+RA: 0030481623024
+ALUNO: JOHN VICTOR SOUSA SANTOS
+TURMA: ADS 2016 - 2º Semestre
+
+Linguagem de Progamação 1 - LP 1
+*/
+
 #include <stdio.h>
 #include <string.h>
 
-void funcao(char v[16]);
+void imprimir_string(char v[16]);
 
 int main(){
-
 	char  v[16];
+	char c[2] = "00";
 	
-	printf("Informe alguns caracteres:");
-	scanf("%s", &v);
+	while(v[0] != c[1] && v[0] != c[1]){
+		printf("Informe alguns caracteres:");
+		scanf("%s", &v);
 	
-	//if (v != "00")
-		funcao(v);
+		imprimir_string(v);
+	}
 	
-	//printf("Fechou");
 	
 }
-void funcao(char v[16]){
+void imprimir_string(char v[16]){
 	int w, x, y, z;
 	int Meio;
 	int Tamanho;
